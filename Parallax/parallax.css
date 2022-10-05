@@ -1,0 +1,44 @@
+.parallax{
+    background-image: url(kratos.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+div{
+    height: 1000px;
+    background-color:rgb(62, 248, 16);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 5px blue;
+    opacity: 0.8;
+}
+
+h2{
+    text-align: center;
+    position: relative;
+    top: 600px;
+    color: rgb(201, 5, 5);
+}
+
+.parallax-3{
+    background-image: url(peces.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-4{
+background-image: linear-gradient(to top, yellow,blue);
+border-style: double;
+border-color: red;
+}
+*{
+    height: auto;
+    width: auto;
+    margin: auto;
+    padding: auto;
+}
